@@ -23,7 +23,7 @@
   <div id="wrapper" class="clearfix">
     <!-- Top Bar
     ============================================= -->
-    <div id="top-bar" class="dark">
+    <div id="top-bar" >
 
       <div class="container clearfix">
 
@@ -32,24 +32,13 @@
           <!-- Top Links
           ============================================= -->
           <div class="top-links">
-              <?php
-                
-                if(has_nav_menu( 'secondary' )){
-                  wp_nav_menu([
-                    'theme_location'        =>  'secondary',
-                    'container'       => false,
-                    'fallback_cb'      =>  false,
-                    'depth'         =>1 ,
-                  //  'walker'        => new ju_custom_nav_walker()
-                  ]);
-                }
-            ?>
+            <p style="font-size: 14px;color: #acaeb1;text-align: left; margin-bottom: 0px; " > 
+            Avenue des Facultés, El Jadida 24000 </p >
           </div><!-- .top-links end -->
 
         </div>
 
         <div class="col_half fright col_last nobottommargin">
- 
           <!-- Top Social
           ============================================= -->
           <div id="top-social">
@@ -84,40 +73,63 @@
 
       </div>
 
-    </div><!-- #top-bar end -->
+    </div><!-- Top Bar -->
 
     <!-- Header
     ============================================= -->
-    <header id="header" class="sticky-style-2">
+    <header id="header pt-5" ">
 
       <div class="container clearfix">
+            <div class="row pt-4 pb-1">
+                <!-- Logo
+                ============================================= -->
+                <div id="logo"  class="col-4 ">
 
-        <!-- Logo
-        ============================================= -->
-        <div id="logo">
+                  <?php 
+                  if(has_custom_logo(  )){
+                    the_custom_logo(  );  
+                  }else {
+                      ?>
+                      <a href="<?php echo home_url( '/' ); ?>" class="standard-logo"><?php bloginfo( 'name' ); ?></a>
+                      <?php
+                  }
+                  ?>
+                
+                </div><!-- #logo  <div clasds="top-advert"> end -->
 
-        <?php 
-        if(has_custom_logo(  )){
-          the_custom_logo(  );  
-        }else {
-            ?>
-            <a href="<?php echo home_url( '/' ); ?>" class="standard-logo"><?php bloginfo( 'name' ); ?></a>
-            <?php
-        }
-        ?>
-        </div><!-- #logo end -->
+                    <div class=" headinfo col pt-3">
+      
+                      <div class="headinfoicon ">
+                        <i class="icon-map-marker-alt "></i>
+                      </div>
+                    <p style="    margin-bottom: 0px !important;  padding-left: 33px !important;   ">123 456 789</p>
+                    <p style="    margin-bottom: 0px !important; padding-left: 33px !important;  " class=" ">info@example.com</p>       
+                </div>
 
-        <div class="top-advert">
-          <?php 
-            if( function_exists( 'quads_ad' ) ){
-                echo quads_ad([ 'location' => 'estschool_header' ]);
-            }
-          ?>
-        </div>
+                <div class=" headinfo col pt-3">
+      
+      <div class="headinfoicon ">
+        <i class="icon-map-marker-alt "></i>
+      </div>
+    <p style="    margin-bottom: 0px !important;  padding-left: 33px !important;   ">123 456 789</p>
+    <p style="    margin-bottom: 0px !important; padding-left: 33px !important;  " class=" ">info@example.com</p>       
+</div>
+
+<div class=" headinfo col pt-3">
+      
+      <div class="headinfoicon ">
+        <i class="icon-map-marker-alt "></i>
+      </div>
+    <p style="    margin-bottom: 0px !important;  padding-left: 33px !important;   ">123 456 789</p>
+    <p style="    margin-bottom: 0px !important; padding-left: 33px !important;  " class=" ">info@example.com</p>       
+</div>
+
+          </div>
 
       </div>
 
-      <div id="header-wrap">
+
+      <div id="header-wrap ">
 
         <!-- Primary Navigation
         ============================================= -->
@@ -214,6 +226,119 @@
 
         </nav><!-- #primary-menu end -->
 
+
+            </header><!-- #header end -->
+             <!--Grid row-->
+
+
+
+
+<div class="container clearfix">
+            <div class="row pt-4 pb-1">
+                <!-- Logo
+                ============================================= -->
+                
+
+   <!--Grid column-->
+   <div class="col">
+
+            <!-- Card -->
+            <div class="card ">
+                  <!-- Content -->
+                  <a href="#!">
+
+                    <div class="text-white d-flex h-100 mask "  style="
+                    background: #4d58b1;
+                    background: -webkit-linear-gradient(left, #4d58b1, #5062d9);
+                    border-radius: 0.25rem;
+                    ">
+                      <div class="first-content align-self-center p-3">
+                        <h3 class="card-title text-white ">Filière GI   </h3>
+                        <p class="lead mb-0">Génie Informatique </p>
+                      </div>
+                     
+                    </div>
+
+                  </a>
+
+
+            </div>
+            <!-- Card -->
+
+</div>
+<!--Grid column-->
+
+
+   <!--Grid column-->
+   <div class="col">
+
+            <!-- Card -->
+            <div class="card ">
+                  <!-- Content -->
+                  <a href="#!">
+
+                    <div class="text-white d-flex h-100 mask "  style="
+                    background: #4d58b1;
+                    background: -webkit-linear-gradient(left, #4d58b1, #5062d9);
+                    border-radius: 0.25rem;
+                    ">
+                      <div class="first-content align-self-center p-3">
+                        <h3 class="card-title text-white ">Filière GI   </h3>
+                        <p class="lead mb-0">Génie Informatique </p>
+                      </div>
+                     
+                    </div>
+
+                  </a>
+
+
+            </div>
+            <!-- Card -->
+
+</div>
+<!--Grid column-->
+
+
+   <!--Grid column-->
+   <div class="col">
+
+            <!-- Card -->
+            <div class="card ">
+                  <!-- Content -->
+                  <a href="#!">
+
+                    <div class="text-white d-flex h-100 mask "  style="
+                    background: #4d58b1;
+                    background: -webkit-linear-gradient(left, #4d58b1, #5062d9);
+                    border-radius: 0.25rem;
+                    ">
+                      <div class="first-content align-self-center p-3">
+                        <h3 class="card-title text-white ">Filière GI   </h3>
+                        <p class="lead mb-0">Génie Informatique </p>
+                      </div>
+                     
+                    </div>
+
+                  </a>
+
+
+            </div>
+            <!-- Card -->
+
+</div>
+<!--Grid column-->
+
+
+
+
+
+  
+  
+</div>
+
+
+          
+
       </div>
 
-    </header><!-- #header end -->
+

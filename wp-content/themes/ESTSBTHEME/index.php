@@ -2,28 +2,91 @@
 
 <!-- Content
 ============================================= -->
-<section id="content">
+<section id="content clearfix">
 
-    <div class="content-wrap">
+<div class="container">
 
-        <div class="section header-stick bottommargin-lg clearfix" style="padding: 20px 0;">
-            <div>
-                <div class="container clearfix">
-                    <span class="badge badge-danger bnews-title">Breaking News:</span>
+	<div class="row justify-content-center ">
 
-                    <div class="fslider bnews-slider nobottommargin" data-speed="800"
-                            data-pause="6000" data-arrows="false" data-pagi="false">
-                        <div class="flexslider">
-                            <div class="slider-wrap">
-                                <div class="slide"><a href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </strong></a></div>
-                                <div class="slide"><a href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </strong></a></div>
-                                <div class="slide"><a href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </strong></a></div>
-                            </div>
+    <h2 class="pt-4"style=" margin: 0;  border-bottom: 4px solid #31A3DD; ">ACTUALITÉS</h2>
+
+		<div class="MultiCarousel" data-items="1,2,3,3" data-slide="3" id="MultiCarousel"  data-interval="1000">
+            <div class="MultiCarousel-inner">
+            
+                          
+            <div class="item">
+                                        <div class="card text-center" >
+                        <div class="card-body">
+                            <h5 class="card-title text-white "> <i class="icon-time "></i> Last updated 3 mins ago</h5>
+                            <p class="card-text f text-white ">Emplois du temps S2 & S4/ 2019-2020 pour les cours en ligne sur Microsoft Teams</p>
+                            <a href="#" class="btn btn-light ">Lire la suite </a>
                         </div>
-                    </div>
+                        </div>
                 </div>
+
+
+                <div class="item">
+                                        <div class="card text-center" >
+                        <div class="card-body">
+                            <h5 class="card-title text-white "> <i class="icon-time "></i> Last updated 3 mins ago</h5>
+                            <p class="card-text f text-white ">Emplois du temps S2 & S4/ 2019-2020 pour les cours en ligne sur Microsoft Teams</p>
+                            <a href="#" class="btn btn-light ">Lire la suite </a>
+                        </div>
+                        </div>
+                </div>
+
+
+
+                <div class="item">
+                                        <div class="card text-center" >
+                        <div class="card-body">
+                            <h5 class="card-title text-white "> <i class="icon-time "></i> Last updated 3 mins ago</h5>
+                            <p class="card-text f text-white ">Emplois du temps S2 & S4/ 2019-2020 pour les cours en ligne sur Microsoft Teams</p>
+                            <a href="#" class="btn btn-light ">Lire la suite </a>
+                        </div>
+                        </div>
+                </div>
+
+
+                <div class="item">
+                                        <div class="card text-center" >
+                        <div class="card-body">
+                            <h5 class="card-title text-white "> <i class="icon-time "></i> Last updated 3 mins ago</h5>
+                            <p class="card-text f text-white ">Emplois du temps S2 & S4/ 2019-2020 pour les cours en ligne sur Microsoft Teams</p>
+                            <a href="#" class="btn btn-light ">Lire la suite </a>
+                        </div>
+                        </div>
+                </div>
+
+
+                <div class="item">
+                                        <div class="card text-center" >
+                        <div class="card-body">
+                            <h5 class="card-title text-white "> <i class="icon-time "></i> Last updated 3 mins ago</h5>
+                            <p class="card-text f text-white ">Emplois du temps S2 & S4/ 2019-2020 pour les cours en ligne sur Microsoft Teams</p>
+                            <a href="#" class="btn btn-light ">Lire la suite </a>
+                        </div>
+                        </div>
+                </div>
+
+
+                              
+            
+
+
+
             </div>
+           <i class="icon-long-arrow-alt-left leftLst"></i>
+           <i class="icon-long-arrow-alt-right rightLst"></i>
+
         </div>
+	</div>
+	
+</div>
+
+<div class="content-wrap">
+
+      
         
 
         <div class="container clearfix">
@@ -34,7 +97,7 @@
 
               <!-- Posts
               ============================================= -->
-              <div id="posts">
+              <div class="row">
 
 
                 <?php 
@@ -52,25 +115,19 @@
 
               <!-- Pagination
               ============================================= -->
+
+              
               <div class="row mb-3">
                   <div class="col-12">
 
+                  <?php echo easy_wp_pagenavigation( ); ?>
 
-                  <?php next_posts_link( " &larr; Older" )?>
-                    <?php previous_posts_link( ' Newer &rarr;' )?>
-                    <!-- .pager end 
-                    <a href="#" class="btn btn-outline-secondary float-left">
-                    
-                    </a>
-                    <a href="#" class="btn btn-outline-dark float-right">
-                    
-                    </a>-->
                   </div>
                   
               </div>
               <!-- .pager end -->
 
-              </div><!-- .postcontent end -->
+          </div><!-- .postcontent end -->
 
 
             <?php get_sidebar(); ?>

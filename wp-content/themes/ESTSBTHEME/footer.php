@@ -1,60 +1,62 @@
   <!-- Footer
     ============================================= -->
-    <footer id="footer" class="dark">
+    <footer id="footer" class=" page-footer font-small teal pt-4 ">
+
+
+    <div class="container">
+ 
+       <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+<!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-md-6 mt-md-0 mt-3">
+
+    <!-- Content -->
+    <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+      repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+      harum esse fugiat. Itaque, culpa?</p>
+
+  </div>
+  <!-- Grid column -->
+
+  <hr class="clearfix w-100 d-md-none pb-3">
+
+  <!-- Grid column -->
+  <div class="col-md-6 mb-md-0 mb-3">
+
+    <!-- Content -->
+    <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+      commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+      excepturi hic.</p>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+</div>
+<!-- Footer Text -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2020 Copyright:
+<a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+</div>
+<!-- Copyright -->
+   
+  </div>
+
+</div>
+
 
       <!-- Copyrights
       ============================================= -->
-      <div id="copyrights">
-
-        <div class="container clearfix">
-
-
-      
-
-          <div class="col_half">
-
-            <?php echo get_theme_mod( 'ju_footer_copyright_text' ); ?>
-            <br>
-              <div class="copyright-links">
-                <?php 
-                  if(get_theme_mod( 'ju_footer_tos_page' )){
-                      ?>
-                    <a href="<?php the_permalink( get_theme_mod( 'ju_footer_tos_page' ) ); ?> ">Terms of Use</a>  <?php 
-                  } 
-                ?>
-                /
-                <?php 
-                  if(get_theme_mod( 'ju_footer_privacy_page' )){
-                      ?>
-                    <a href="<?php the_permalink( get_theme_mod( 'ju_footer_privacy_page' ) ); ?> ">Privacy Policy</a>  <?php 
-                  } 
-                ?>
-                
-                <br>
-              </div>
-          </div>
-
-          <div class="col_half col_last tright">
-            <div class="fright clearfix">
-              <a href="#" class="social-icon si-small si-borderless si-facebook">
-                <i class="icon-facebook"></i>
-                <i class="icon-facebook"></i>
-              </a>
-
-              <a href="#" class="social-icon si-small si-borderless si-twitter">
-                <i class="icon-twitter"></i>
-                <i class="icon-twitter"></i>
-              </a>
-
-            </div>
-
-            <div class="clear"></div>
-
-            <i class="icon-envelope2"></i> info@email.com <span class="middot">&middot;</span>
-            <i class="icon-headphones"></i> +55-5-5555-5555
-          </div>
-
-        </div>
+   
 
       </div><!-- #copyrights end -->
 
