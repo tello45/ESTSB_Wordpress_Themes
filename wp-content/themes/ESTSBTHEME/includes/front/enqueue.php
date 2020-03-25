@@ -10,6 +10,15 @@ function ju_enqueue(){
         [],  
         $ver
     );
+
+    wp_register_style( 
+        'ju_google5_fonts', 
+        'https://fonts.googleapis.com/css?family=Poppins&display=swap', 
+        [],  
+        $ver
+    );
+
+
     wp_register_style( 'ju_bootstrap', $uri . '/assets/css/bootstrap.css', [], $ver );
     wp_register_style( 'ju_style', $uri . '/assets/css/style.css', [], $ver );
     wp_register_style( 'ju_dark', $uri . '/assets/css/dark.css', [], $ver );
@@ -21,6 +30,8 @@ function ju_enqueue(){
     wp_register_style( 'ju_mdb', $uri . '/assets/css/mdb.css', [], $ver );
 
     wp_enqueue_style( 'ju_google_fonts' );
+    wp_enqueue_style( 'ju_google5_fonts' );
+
     wp_enqueue_style( 'ju_bootstrap' );
     wp_enqueue_style( 'ju_style' );
     wp_enqueue_style( 'ju_dark' );

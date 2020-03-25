@@ -9615,8 +9615,11 @@ table.table a.btn.btn-black {
 .card {
     font-weight: 400;
     border: 0;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    webkit-box-shadow: 0 0 13px 0 rgba(82,63,105,.05);
+    box-shadow: 0 0 13px 0 rgba(82,63,105,.05);
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 .card[class*="border"] {

@@ -49,23 +49,6 @@ rewind_posts(  );
 
                         
 
-                            <!-- Entry Image ============================================= -->
-                            <div class="entry-image">
-                                 <?PHP 
-                                        if(has_post_thumbnail( )){
-                                ?>
-                                        <div class="entry-image">
-                                        <a href="#">
-                                <?PHP 
-                                    
-                                    the_post_thumbnail( 'full'  ) 
-                                ?>
-                                        </a>
-                                        </div>
-                                <?PHP
-                                    }
-                                ?>
-                            </div><!-- .entry-image end -->
 
                             <!-- Entry Content ============================================= -->
                             <div class="entry-content notopmargin">
@@ -82,33 +65,8 @@ rewind_posts(  );
                                         wp_link_pages( $defaults );
                                 ?>
 
-                                <!-- Tag Cloud
-                                                ============================================= -->
-                                <div class="tagcloud clearfix bottommargin">
-                                <?PHP 
-                                    the_tags( '', ' - ' ) ;
-                                ?>
-                                </div> 
+                              
 
-                                <div class="clear"></div>
-
-                            </div>
-                            </div>
-                            <!-- .entry end -->
-
-                            <!-- Post Navigation ============================================= -->
-                            <div class="post-navigation clearfix">
-
-                            <div class="col_half nobottommargin">
-                            <?PHP  previous_post_link() ?> 
-                        </div>
-
-                        <div class="col_half col_last tright nobottommargin">
-                            <?PHP  next_post_link() ?> 
-                            </div>
-
-                            </div>
-                            <!-- .post-navigation end -->
 
                             <div class="line"></div>
 
@@ -117,14 +75,7 @@ rewind_posts(  );
                              
                          
 
-                        <?php  if (comments_open() ||get_comments_number(  )  ){
-                                comments_template( )  ;  }    
-                            ?>
-                                </div>
-                                </div>
-                            <?php
-                            }}
-                       ?>
+                  
 
              
                 

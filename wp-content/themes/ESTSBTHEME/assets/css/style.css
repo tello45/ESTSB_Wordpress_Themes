@@ -265,7 +265,7 @@ small { font-family: 'Lato', sans-serif; }
 	float: none;
 	width: 1220px;
 	margin: 0 auto;
-	background-color: #FFF;
+	background-color: #f2f3f8;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -276,7 +276,7 @@ small { font-family: 'Lato', sans-serif; }
 	clear: both;
 	position: relative;
 	width: 100%;
-	margin: 60px 0;
+	margin: 20px 0;
 	border-top: 1px solid #EEE;
 }
 
@@ -604,7 +604,7 @@ span.middot {
 .col_one_third { width: 30.63%; }
 .col_two_third { width: 65.33%; }
 .col_one_fourth,
-.sidebar { width: 29%; }
+.sidebar { width: 31%; }
 .col_three_fourth,
 .postcontent { width: 65%; }
 .col_one_fifth { width: 16.8%; }
@@ -742,12 +742,15 @@ html[xmlns] .slider-wrap {display: block;}
 
 
 #top-bar {
+	-webkit-box-shadow: 0 0 40px 0 rgba(82,63,105,.1); 
+	box-shadow: 0 0 40px 0 rgba(82,63,105,.1);
 	position: relative;
 	height: 45px;
 	line-height: 44px;
 	font-size: 15px;
-	color: #acaeb1;
-    background-color: #f6f6f6 !important
+	color: #a6acb4;
+	background-color: #f6f6f6 !important;
+	
 }
 
 
@@ -3322,6 +3325,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	opacity: 1 !important;
 	background-color: transparent !important;
 	border: 1px solid #FFF;
+	
 }
 
 .slider-element .owl-dots .owl-dot.active,
@@ -3336,9 +3340,14 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 #page-title {
 	position: relative;
 	padding: 50px 0;
-	background-color: #F5F5F5;
+	background-color: #f0f3ff;
 	border-bottom: 1px solid #EEE;
+	box-shadow: 0 0 40px 0 rgba(82,63,105,.1);
+	text-align: center;
 }
+
+
+
 
 #page-title .container { position: relative; }
 
@@ -3529,7 +3538,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .content-wrap {
 	position: relative;
-	padding: 10px 0;
+	padding: 20px 0;
 }
 
 #content .container { position: relative; }
@@ -4867,7 +4876,6 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 .entry {
 	position: relative;
 	margin: 0 0 40px;
-	background: #f8f5f5;
 	padding-bottom: 2px;
 }
 
@@ -4902,10 +4910,9 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 
 .entry-title h2 {
 	margin: 0;
-	font-size: 24px;
+	font-size: 19px;
 	font-weight: 600;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
 .entry-title h2 a { color: #333; }
@@ -12159,7 +12166,7 @@ button.toast-close-button {
 
 .widget > h4 {
 	margin-bottom: 5px;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -13938,7 +13945,7 @@ body:not(.no-transition) #wrapper,
 .MultiCarousel { float: left; overflow: hidden; padding: 1px; width:100%; position:relative; }
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px;   color:#fff;    background: #4d58b1 ; background: -webkit-linear-gradient(left, #4d58b1, #5062d9);}
+        .MultiCarousel .MultiCarousel-inner .item > div {     height: 220px; text-align: center; padding:10px; margin:10px;   color:#fff;    background: #4d58b1 ; background: -webkit-linear-gradient(left, #4d58b1, #5062d9);}
     .MultiCarousel .leftLst, .MultiCarousel .rightLst {  color:#f6b43c;  font-size: 40px;  position:absolute; border-radius:100%;top:calc(50% - 20px); }
     .MultiCarousel .leftLst { left:0; }
     .MultiCarousel .rightLst { right:0; }
@@ -13953,7 +13960,12 @@ body:not(.no-transition) #wrapper,
 
 		.widtitle{
 			background:-webkit-linear-gradient(left, #4d58b1, #5062d9);
-    padding: 10px;
+    padding: 18px;
 	border-radius: 6px;
 	color:#fff;
+		}
+
+		.entry-title{
+			TEXT-ALIGN: CENTER;
+			font-size: 11px !important;
 		}

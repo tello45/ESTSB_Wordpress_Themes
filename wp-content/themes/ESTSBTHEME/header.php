@@ -100,10 +100,10 @@
                     <div class=" headinfo col pt-3">
       
                       <div class="headinfoicon ">
-                        <i class="icon-map-marker-alt "></i>
+                        <i class="icon-envelope-open "></i>
                       </div>
-                    <p style="    margin-bottom: 0px !important;  padding-left: 33px !important;   ">123 456 789</p>
-                    <p style="    margin-bottom: 0px !important; padding-left: 33px !important;  " class=" ">info@example.com</p>       
+                    <p style="    margin-bottom: 0px !important;  padding-left: 37px !important;   ">+212 523344449</p>
+                    <p style="    margin-bottom: 0px !important; padding-left: 38px !important;  " class=" ">communication@ucd.ac.ma</p>       
                 </div>
 
                 <div class=" headinfo col pt-3">
@@ -111,8 +111,8 @@
       <div class="headinfoicon ">
         <i class="icon-map-marker-alt "></i>
       </div>
-    <p style="    margin-bottom: 0px !important;  padding-left: 33px !important;   ">123 456 789</p>
-    <p style="    margin-bottom: 0px !important; padding-left: 33px !important;  " class=" ">info@example.com</p>       
+    <p style="    margin-bottom: 0px !important;  padding-left: 33px !important;   ">Avenue Jabran Khalil Jabran</p>
+    <p style="    margin-bottom: 0px !important; padding-left: 33px !important;  " class=" ">B.P 299-24000 El jadida</p>       
 </div>
 
 <div class=" headinfo col pt-3">
@@ -231,114 +231,5 @@
              <!--Grid row-->
 
 
-
-
-<div class="container clearfix">
-            <div class="row pt-4 pb-1">
-                <!-- Logo
-                ============================================= -->
-                
-
-   <!--Grid column-->
-   <div class="col">
-
-            <!-- Card -->
-            <div class="card ">
-                  <!-- Content -->
-                  <a href="#!">
-
-                    <div class="text-white d-flex h-100 mask "  style="
-                    background: #4d58b1;
-                    background: -webkit-linear-gradient(left, #4d58b1, #5062d9);
-                    border-radius: 0.25rem;
-                    ">
-                      <div class="first-content align-self-center p-3">
-                        <h3 class="card-title text-white ">Filière GI   </h3>
-                        <p class="lead mb-0">Génie Informatique </p>
-                      </div>
-                     
-                    </div>
-
-                  </a>
-
-
-            </div>
-            <!-- Card -->
-
-</div>
-<!--Grid column-->
-
-
-   <!--Grid column-->
-   <div class="col">
-
-            <!-- Card -->
-            <div class="card ">
-                  <!-- Content -->
-                  <a href="#!">
-
-                    <div class="text-white d-flex h-100 mask "  style="
-                    background: #4d58b1;
-                    background: -webkit-linear-gradient(left, #4d58b1, #5062d9);
-                    border-radius: 0.25rem;
-                    ">
-                      <div class="first-content align-self-center p-3">
-                        <h3 class="card-title text-white ">Filière GI   </h3>
-                        <p class="lead mb-0">Génie Informatique </p>
-                      </div>
-                     
-                    </div>
-
-                  </a>
-
-
-            </div>
-            <!-- Card -->
-
-</div>
-<!--Grid column-->
-
-
-   <!--Grid column-->
-   <div class="col">
-
-            <!-- Card -->
-            <div class="card ">
-                  <!-- Content -->
-                  <a href="#!">
-
-                    <div class="text-white d-flex h-100 mask "  style="
-                    background: #4d58b1;
-                    background: -webkit-linear-gradient(left, #4d58b1, #5062d9);
-                    border-radius: 0.25rem;
-                    ">
-                      <div class="first-content align-self-center p-3">
-                        <h3 class="card-title text-white ">Filière GI   </h3>
-                        <p class="lead mb-0">Génie Informatique </p>
-                      </div>
-                     
-                    </div>
-
-                  </a>
-
-
-            </div>
-            <!-- Card -->
-
-</div>
-<!--Grid column-->
-
-
-
-
-
-  
-  
-</div>
-
-
-          
-
-      </div>
 
 
