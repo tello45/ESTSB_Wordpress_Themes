@@ -15,8 +15,8 @@
 <b align="center" >📌  Files Included : 	PHP Files, CSS Files, JS Files . </b></BR>
 <b align="center" > 🛠  plugin dependencies :  Easy WP Page Navigation - Recent Posts Widget Extended </b>
      </p>
- ---
-  
+
+ ---  
  
 
 
@@ -27,16 +27,21 @@
   
 ## 🚀 HEADER
 <img  align="center" src="https://i.imgur.com/KKhIFr6.png" alt="demo"/>
+
  ---
+
 ## 🚀 POST CARD
      
   <img  align="center" src="https://i.imgur.com/qo0ettg.png"/>
- ---
   
+ ---
+ 
 ## 🚀 FOOTER
      
   <img  align="center" src="https://i.imgur.com/FHgQojt.pngg"/>
+  
  ---
+
 ## 🚀 POST PAGE ( SINGLE.PHP )
      
 <img  align="center" src="https://i.imgur.com/3CLKKVv.png"/>
