@@ -13,26 +13,26 @@
 ##  🚀 Screenshot full (index.php)  
   <img align="center" src="https://i.imgur.com/bx5ffyz.jpg" alt="demo"/>
   
-## 🚀 header 
+## 🚀 HEADER
 
 
 <img  align="center" src="https://i.imgur.com/KKhIFr6.png" alt="demo"/>
 
-## 🚀 post card
+## 🚀 POST CARD
      
   <img  align="center" src="https://i.imgur.com/qo0ettg.png"/>
   
   
-## 🚀 footer 
+## 🚀 FOOTER
      
   <img  align="center" src="https://i.imgur.com/FHgQojt.pngg"/>
   
-## 🚀 post page
+## 🚀 POST PAGE ( SINGLE.PHP )
      
 <img  align="center" src="https://i.imgur.com/3CLKKVv.png"/>
   
   
-##   🚀 page.php
+##   🚀 PAGE.PHP  ( PAGE.PHP )
 
 
  <img   align="center" src="https://i.imgur.com/qqkXSFH.png" alt="demo"/>
