@@ -9,6 +9,14 @@
   <img align="center" src="https://i.imgur.com/Op0uRMI.png" />
   </br>
  
+ ---
+<p>
+<b align="center" >
+   📝 WORDPRESS  Version	:  5.3.2 
+   📝  Files Included : 	PHP Files, CSS Files, JS Files .
+   📝  plugin dependencies :  Easy WP Page Navigation - Recent Posts Widget Extended
+ 
+  </b> </p
 
 ##  🚀 Screenshot full (index.php)  
   <img align="center" src="https://i.imgur.com/bx5ffyz.jpg" alt="demo"/>
