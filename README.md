@@ -12,36 +12,36 @@
  ---
 <p>
 <b align="center" >📝 WORDPRESS  Version	:  5.3.2  </b> </BR>
-<b align="center" >📝  Files Included : 	PHP Files, CSS Files, JS Files . </b></BR>
-<b align="center" > 📝  plugin dependencies :  Easy WP Page Navigation - Recent Posts Widget Extended </b>
-   
-   
+<b align="center" >📌  Files Included : 	PHP Files, CSS Files, JS Files . </b></BR>
+<b align="center" > 🛠  plugin dependencies :  Easy WP Page Navigation - Recent Posts Widget Extended </b>
+     </p>
+ ---
   
  
-  </p>
+
 
 ##  🚀 Screenshot full (index.php)  
-  <img align="center" src="https://i.imgur.com/bx5ffyz.jpg" alt="demo"/>
+  <img align="center" src="https://i.imgur.com/bx5ffyz.jpg" alt="demo" />
+  
+ ---
   
 ## 🚀 HEADER
-
-
 <img  align="center" src="https://i.imgur.com/KKhIFr6.png" alt="demo"/>
-
+ ---
 ## 🚀 POST CARD
      
   <img  align="center" src="https://i.imgur.com/qo0ettg.png"/>
-  
+ ---
   
 ## 🚀 FOOTER
      
   <img  align="center" src="https://i.imgur.com/FHgQojt.pngg"/>
-  
+ ---
 ## 🚀 POST PAGE ( SINGLE.PHP )
      
 <img  align="center" src="https://i.imgur.com/3CLKKVv.png"/>
   
-  
+ ---
 ##   🚀 PAGE.PHP  ( PAGE.PHP )
 
 
