@@ -12,7 +12,7 @@
  ---
 <p>
 <b align="center" >📝 WORDPRESS  Version	:  5.3.2  </b> </BR>
-<b align="center" >📝  Files Included : 	PHP Files, CSS Files, JS Files . </b>
+<b align="center" >📝  Files Included : 	PHP Files, CSS Files, JS Files . </b></BR>
 <b align="center" > 📝  plugin dependencies :  Easy WP Page Navigation - Recent Posts Widget Extended </b>
    
    
