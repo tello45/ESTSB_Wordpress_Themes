@@ -11,12 +11,12 @@
  
  ---
 <p>
-<b align="center" >
-   📝 WORDPRESS  Version	:  5.3.2 
+<b align="center" >📝 WORDPRESS  Version	:  5.3.2  </b>
+   
    📝  Files Included : 	PHP Files, CSS Files, JS Files .
    📝  plugin dependencies :  Easy WP Page Navigation - Recent Posts Widget Extended
  
-  </b> </p
+  </p>
 
 ##  🚀 Screenshot full (index.php)  
   <img align="center" src="https://i.imgur.com/bx5ffyz.jpg" alt="demo"/>
