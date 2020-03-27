@@ -22,19 +22,20 @@
      
   <img  align="center" src="https://i.imgur.com/qo0ettg.png"/>
   
-## 🚀 post card
-     
-<img  align="center" src="https://i.imgur.com/qo0ettg.png"/>
-  
   
 ## 🚀 footer 
      
   <img  align="center" src="https://i.imgur.com/FHgQojt.pngg"/>
   
+## 🚀 post page
+     
+<img  align="center" src="https://i.imgur.com/3CLKKVv.png"/>
+  
+  
 ##   🚀 page.php
 
 
- <img   align="center" src="https://i.imgur.com/aAanHYK.png" alt="demo"/>
+ <img   align="center" src="https://i.imgur.com/qqkXSFH.png" alt="demo"/>
 
 
 ---
