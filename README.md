@@ -10,22 +10,31 @@
   </br>
  
 
-##  🚀 Screenshot full INDEX  
+##  🚀 Screenshot full (index.php)  
   <img align="center" src="https://i.imgur.com/bx5ffyz.jpg" alt="demo"/>
   
-## 🚀 footer
+## 🚀 header 
 
 
-<img  align="center" src="https://i.imgur.com/FySwOts.png" alt="demo"/>
+<img  align="center" src="https://i.imgur.com/KKhIFr6.png" alt="demo"/>
 
-## 🚀 post 
+## 🚀 post card
      
-  <img  align="center" src="https://i.imgur.com/7wKorKj.png"/>
+  <img  align="center" src="https://i.imgur.com/qo0ettg.png"/>
   
-##   🚀 page 
+## 🚀 post card
+     
+<img  align="center" src="https://i.imgur.com/qo0ettg.png"/>
+  
+  
+## 🚀 footer 
+     
+  <img  align="center" src="https://i.imgur.com/FHgQojt.pngg"/>
+  
+##   🚀 page.php
 
 
-  <img   align="center" src="https://i.imgur.com/aAanHYK.png" alt="demo"/>
+ <img   align="center" src="https://i.imgur.com/aAanHYK.png" alt="demo"/>
 
 
 ---
