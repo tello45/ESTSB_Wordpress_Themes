@@ -8,12 +8,10 @@
 
   <img align="center" src="https://i.imgur.com/Op0uRMI.png" />
   </br>
-    <img align="center" src="https://i.imgur.com/fXPtyk7.jpgg" />
+ 
 
-
-
-##  🚀 index  
-  <img align="center" src="https://i.imgur.com/A12dH18.png" alt="demo"/>
+##  🚀 Screenshot full INDEX  
+  <img align="center" src="https://i.imgur.com/bx5ffyz.jpg" alt="demo"/>
   
 ## 🚀 footer
 
